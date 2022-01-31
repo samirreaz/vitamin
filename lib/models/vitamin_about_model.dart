@@ -25,8 +25,15 @@ List<VitaminAboutModel> vitaminAboutList = [
       description: 'description',
       graphImg: 'graphImg'),
   VitaminAboutModel(
-      vitaminName: 'Vitamin A',
-      fruitImg: '',
-      description: 'description',
-      graphImg: 'graphImg'),
+    vitaminName: 'Vitamin A',
+    fruitImg: '',
+    description: 'description',
+    graphImg: 'graphImg',
+  ),
+  VitaminAboutModel(
+    vitaminName: 'Vitamin z',
+    fruitImg: '',
+    description: 'description',
+    graphImg: 'graphImg',
+  ),
 ];
