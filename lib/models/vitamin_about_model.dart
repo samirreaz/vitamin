@@ -15,18 +15,22 @@ class VitaminAboutModel {
 //! it's for detail speccific vitamin..
 List<VitaminAboutModel> vitaminAboutList = [
   VitaminAboutModel(
-      vitaminName: 'Vitamin A',
-      fruitImg: 'assets/images/1.jpg',
-      description: 'description',
-      graphImg: 'graphImg'),
+    vitaminName: 'Vitamin A',
+    fruitImg:
+        'https://www.theappmakersmanual.com//uploads/images/meta/inspiration-intro.png',
+    description: 'sdfsd',
+    graphImg: 'graphImg',
+  ),
   VitaminAboutModel(
-      vitaminName: 'Vitamin A',
-      fruitImg: '',
-      description: 'description',
-      graphImg: 'graphImg'),
+    vitaminName: 'Vitamin A',
+    fruitImg: '',
+    description: 'description',
+    graphImg: 'graphImg',
+  ),
   VitaminAboutModel(
-      vitaminName: 'Vitamin A',
-      fruitImg: '',
-      description: 'description',
-      graphImg: 'graphImg'),
+    vitaminName: 'Vitamin A',
+    fruitImg: '',
+    description: 'description',
+    graphImg: 'graphImg',
+  ),
 ];
