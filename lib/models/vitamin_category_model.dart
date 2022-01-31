@@ -12,4 +12,7 @@ class VitaminCategoryModel {
 List<VitaminCategoryModel> vitamins = [
   VitaminCategoryModel(vitaminName: 'A', vitaminImg: 'vitaminImg'),
   VitaminCategoryModel(vitaminName: 'B', vitaminImg: 'vitaminImg'),
+  VitaminCategoryModel(vitaminName: 'B', vitaminImg: 'vitaminImg'),
+  VitaminCategoryModel(vitaminName: 'B', vitaminImg: 'vitaminImg'),
+  VitaminCategoryModel(vitaminName: 'B', vitaminImg: 'vitaminImg'),
 ];
