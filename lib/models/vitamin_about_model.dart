@@ -24,7 +24,9 @@ List<VitaminAboutModel> vitaminAboutList = [
   VitaminAboutModel(
     vitaminName: 'Vitamin A',
     fruitImg: '',
-    description: 'description',
+    description: '',
+
+    //ss
     graphImg: 'graphImg',
   ),
   VitaminAboutModel(
