@@ -7,6 +7,14 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: ListView.builder(
+        itemCount: 4,
+        itemBuilder: (context, index) => Container(
+          height: 200,
+          color: Colors.black,
+        ),
+      ),
+    );
   }
 }
