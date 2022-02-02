@@ -11,13 +11,33 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     Size _size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.white.withOpacity(.8),
+      appBar: AppBar(
+        title: Text(
+          'Vitamin Index',
+          style: TextStyle(color: Colors.blueAccent, fontSize: 35),
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.white,
+      ),
+      backgroundColor: Colors.black.withOpacity(.8),
       body: ListView.builder(
         itemCount: vitamins.length,
         itemBuilder: (context, index) => Container(
-          margin: EdgeInsets.all(10),
+
+          margin: EdgeInsets.all(20),
           height: _size.height * 0.25,
-          color: Colors.white,
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.all(
+                Radius.circular(14),
+              ),
+              color: Colors.blueAccent,
+              boxShadow: [
+                BoxShadow(
+                    color: Colors.blue.withOpacity(0.5),
+                    spreadRadius: 10,
+                    blurRadius: 10,
+                    offset: Offset(0, 3))
+              ]),
           child: Image(
             image: NetworkImage(vitamins[index].vitaminImg),
             fit: BoxFit.scaleDown,
