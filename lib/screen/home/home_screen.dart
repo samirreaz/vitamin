@@ -9,27 +9,33 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Vitamin'),
-      ),
+          title: Text(
+            'Vitamin',
+            style: TextStyle(color: Colors.white),
+          ),
+          centerTitle: true,
+          backgroundColor: Colors.black54),
       body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Center(
               child: Container(
+                margin: EdgeInsets.all(50),
                 child: ListView.builder(
                   itemCount: 15,
                   itemBuilder: (context, index) => Container(
+                    padding: EdgeInsets.all(32),
+                    margin: EdgeInsets.all(5),
                     height: 50,
                     width: 150,
                     decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                          colors: [Colors.blueGrey, Colors.grey]),
+                      gradient:
+                          LinearGradient(colors: [Colors.blue, Colors.purple]),
                       borderRadius: BorderRadius.all(
                         Radius.circular(30),
                       ),
                     ),
-                    padding: EdgeInsets.all(45),
                   ),
                 ),
                 height: 500,
@@ -38,11 +44,11 @@ class HomeScreen extends StatelessWidget {
                     borderRadius: BorderRadius.all(
                       Radius.circular(30),
                     ),
-                    border: Border.all(color: Colors.black, width: 5),
-                    color: Colors.amber,
+                    border: Border.all(color: Colors.cyan, width: 5),
+                    color: Colors.black,
                     boxShadow: [
                       BoxShadow(
-                          color: Colors.blue,
+                          color: Colors.lightGreenAccent,
                           blurRadius: 15.0,
                           offset: Offset(5, 1.0),
                           spreadRadius: 5),
@@ -50,13 +56,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ]),
-      backgroundColor: Colors.red,
+      backgroundColor: Colors.blue,
     );
   }
 }
-
-//  color: Colors.red,
-//                 decoration: BoxDecoration(
-//                       borderRadius: BorderRadius.all(
-//                         Radius.circular(30),
-//                       ),
