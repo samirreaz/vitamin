@@ -25,7 +25,6 @@ class HomeScreen extends StatelessWidget {
                 child: ListView.builder(
                   itemCount: 15,
                   itemBuilder: (context, index) => Container(
-                    padding: EdgeInsets.all(32),
                     margin: EdgeInsets.all(5),
                     height: 50,
                     width: 150,
