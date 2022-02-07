@@ -17,13 +17,12 @@ class HomeScreen extends StatelessWidget {
           style: TextStyle(color: Colors.blueAccent, fontSize: 35),
         ),
         centerTitle: true,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.white24,
       ),
       backgroundColor: Colors.black.withOpacity(.8),
       body: ListView.builder(
         itemCount: vitamins.length,
         itemBuilder: (context, index) => Container(
-
           margin: EdgeInsets.all(20),
           height: _size.height * 0.25,
           decoration: BoxDecoration(
