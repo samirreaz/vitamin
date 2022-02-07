@@ -17,7 +17,7 @@ List<VitaminCategoryModel> vitamins = [
   VitaminCategoryModel(
       vitaminName: 'B',
       vitaminImg:
-          'https://th.bing.com/th/id/R.48152d3bd0cc0448ac128f56c9dfa7ee?rik=bH0DPL9Ey5fKkg&pid=ImgRaw&r=0'),
+          'https://i2.wp.com/smartqualifications.com/wp-content/uploads/2014/11/vitamin-B1.jpg?resize=1000%2C675&ssl=1'),
   VitaminCategoryModel(
       vitaminName: 'C',
       vitaminImg:

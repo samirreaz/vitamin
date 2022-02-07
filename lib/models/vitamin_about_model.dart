@@ -28,8 +28,7 @@ List<VitaminAboutModel> vitaminAboutList = [
           'https://th.bing.com/th/id/OIP.5oDr4s3AElMd8sv8JceDzAHaDl?pid=ImgDet&rs=1',
       description:
           "Vitamins B-6, B-12, and B-9 are essential for proper nerve function, the synthesis of DNA, and the formation of red blood cells in your body. They also help maintain your brain function, prevent anemia, and support metabolism.  Foods that are particularly high in vitamins B-6 and B-12 include:  meat, poultry, and fish seafood, including mussels and oysters eggs milk Foods that are particularly high in B-9, or folic acid, include leafy green vegetables and poultry. Some breakfast cereals, fruit juices, and other products are fortified with folic acid",
-      graphImg:
-          'https://th.bing.com/th/id/R.8b0f6a73f03f28227be671ef390bbe89?rik=jIvPB6yBQw7Zpg&pid=ImgRaw&r=0&sres=1&sresct=1'),
+      graphImg: 'graphImg'),
   VitaminAboutModel(
     vitaminName: 'Vitamin C',
     fruitImg:
