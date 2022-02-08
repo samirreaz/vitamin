@@ -13,27 +13,26 @@ List<VitaminCategoryModel> vitamins = [
   VitaminCategoryModel(
     vitaminName: 'A',
     vitaminImg:
-        'https://banner2.cleanpng.com/20190615/oew/kisspng-dietary-supplement-fat-soluble-vitamins-vitamin-a-vitamins-png-images-free-download-5d0536b86eda97.0323378615606227764541.jpg',
+        'https://th.bing.com/th/id/R.f88bc509b12ff48087d27745328e2a62?rik=UnDVHMih%2faxhPA&riu=http%3a%2f%2fpngimg.com%2fuploads%2fvitamins%2fvitamins_PNG13.png&ehk=cIvnwH%2bFzSLEAWXzLgXn8qz7a1nP%2fxl4SUplvCuVWYg%3d&risl=&pid=ImgRaw&r=0',
   ),
   VitaminCategoryModel(
     vitaminName: 'B',
     vitaminImg:
-        'https://i2.wp.com/smartqualifications.com/wp-content/uploads/2014/11/vitamin-B1.jpg?resize=1000%2C675&ssl=1',
+        'https://th.bing.com/th/id/OIP.uWvR1QndpSRfnwFycnm4pAHaJ_?pid=ImgDet&w=600&h=810&rs=1',
   ),
   VitaminCategoryModel(
     vitaminName: 'C',
     vitaminImg:
-        'https://icon2.cleanpng.com/20180130/cge/kisspng-dietary-supplement-vitamin-c-nutrient-vitamin-e-vitamin-c-material-5a706e2fd409d7.1131500615173176798685.jpg',
+        'https://www.pngall.com/wp-content/uploads/2017/11/Vitamin-C-PNG-Images.png',
   ),
   VitaminCategoryModel(
     vitaminName: 'D',
-    vitaminImg:
-        'https://banner2.cleanpng.com/20190723/ebv/kisspng-dietary-supplement-vitamin-d-food-calcium-suppleme-forever-fit-5d37b102ae05a5.0141293815639308827128.jpg',
+    vitaminImg: 'http://pngimg.com/uploads/vitamins/vitamins_PNG11.png',
   ),
   VitaminCategoryModel(
     vitaminName: 'E',
     vitaminImg:
-        'https://image.shutterstock.com/image-photo/fruit-vegetable-alphabet-letter-e-600w-73823440.jpg',
+        'https://68.media.tumblr.com/550af65deb1a38425749e3a8f19f469c/tumblr_n3h14iuymA1txodxeo1_250.jpg',
   ),
   VitaminCategoryModel(
     vitaminName: 'K',
