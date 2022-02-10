@@ -13,17 +13,17 @@ List<VitaminCategoryModel> vitamins = [
   VitaminCategoryModel(
     vitaminName: 'A',
     vitaminImg:
-        'https://th.bing.com/th/id/R.f88bc509b12ff48087d27745328e2a62?rik=UnDVHMih%2faxhPA&riu=http%3a%2f%2fpngimg.com%2fuploads%2fvitamins%2fvitamins_PNG13.png&ehk=cIvnwH%2bFzSLEAWXzLgXn8qz7a1nP%2fxl4SUplvCuVWYg%3d&risl=&pid=ImgRaw&r=0',
+        'https://8limbmuaythai.com/wp-content/uploads/2016/02/8-fungsi-vitamin-a.jpg',
   ),
   VitaminCategoryModel(
     vitaminName: 'B',
     vitaminImg:
-        'https://th.bing.com/th/id/OIP.uWvR1QndpSRfnwFycnm4pAHaJ_?pid=ImgDet&w=600&h=810&rs=1',
+        'https://www.fashionlady.in/wp-content/uploads/2015/12/b-vitamin-food.jpg',
   ),
   VitaminCategoryModel(
     vitaminName: 'C',
     vitaminImg:
-        'https://www.pngall.com/wp-content/uploads/2017/11/Vitamin-C-PNG-Images.png',
+        'https://novadiet.es/wp-content/uploads/2018/03/Propiedades-de-la-vitamina-C-1-768x539.jpg',
   ),
   VitaminCategoryModel(
     vitaminName: 'D',
@@ -32,7 +32,7 @@ List<VitaminCategoryModel> vitamins = [
   VitaminCategoryModel(
     vitaminName: 'E',
     vitaminImg:
-        'https://68.media.tumblr.com/550af65deb1a38425749e3a8f19f469c/tumblr_n3h14iuymA1txodxeo1_250.jpg',
+        'https://i.pinimg.com/originals/d1/c9/7c/d1c97c19cb0673de343b301c45de202e.jpg',
   ),
   VitaminCategoryModel(
     vitaminName: 'K',

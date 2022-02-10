@@ -24,6 +24,7 @@ class DetailsScreen extends StatelessWidget {
         title: Text(selectedVitamin),
       ),
       body: SingleChildScrollView(
+        padding: EdgeInsets.all(20),
         child: Column(
           children: [
             Image(image: NetworkImage(model!.fruitImg)),
@@ -31,7 +32,15 @@ class DetailsScreen extends StatelessWidget {
               model!.vitaminName,
               style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
             ),
-            Text(model!.description),
+            SizedBox(
+                width: double.infinity,
+                child: Text(
+                  model!.description,
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                )),
+            SizedBox(
+              height: 20,
+            ),
             Image(image: NetworkImage(model!.graphImg)),
           ],
         ),

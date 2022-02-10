@@ -28,7 +28,8 @@ List<VitaminAboutModel> vitaminAboutList = [
           'https://th.bing.com/th/id/OIP.5oDr4s3AElMd8sv8JceDzAHaDl?pid=ImgDet&rs=1',
       description:
           "Vitamins B-6, B-12, and B-9 are essential for proper nerve function, the synthesis of DNA, and the formation of red blood cells in your body. They also help maintain your brain function, prevent anemia, and support metabolism.  Foods that are particularly high in vitamins B-6 and B-12 include:  meat, poultry, and fish seafood, including mussels and oysters eggs milk Foods that are particularly high in B-9, or folic acid, include leafy green vegetables and poultry. Some breakfast cereals, fruit juices, and other products are fortified with folic acid",
-      graphImg: 'graphImg'),
+      graphImg:
+          'https://www.grassrootshealth.net/wp-content/uploads/2017/06/NHANES-bar-graph-by-race-for-POC-1024x763.png'),
   VitaminAboutModel(
     vitaminName: 'Vitamin C',
     fruitImg:
@@ -61,7 +62,7 @@ dark leafy greens, such as kale, mustard greens, and chard''',
     description:
         "Like vitamin C, vitamin E is a powerful antioxidant. It helps protects your cells from damage. It also helps your body use vitamin K and repair muscle cells.  Foods that are particularly high in vitamin E include:  sunflower seeds and almonds spinach, Swiss chard, and turnip greens bell peppers asparagus",
     graphImg:
-        'https://th.bing.com/th/id/R.ed710dadf1c8a5a0da410bb54d324f4e?rik=mCL7FfSUeje%2bcA&pid=ImgRaw&r=0',
+        'https://th.bing.com/th/id/R.a67d0498d58e3a4242cf8c8cc7abfb4d?rik=mJUsiHrefXBivg&riu=http%3a%2f%2fwww.palmoilhealth.org%2fwp-content%2fuploads%2f2013%2f03%2fVitamin-E-content-chart-548x364.jpg&ehk=8S1kqwYMXDAHU253nLIZQQAAb83plHOXwxq0qVOdbec%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1',
   ),
   VitaminAboutModel(
     vitaminName: 'Vitamin K',
