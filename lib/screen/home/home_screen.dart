@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     Size _size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.white.withOpacity(.8),
+      backgroundColor: Colors.black.withOpacity(.8),
       body: ListView.builder(
         itemCount: vitamins.length,
         itemBuilder: (context, index) => InkWell(
