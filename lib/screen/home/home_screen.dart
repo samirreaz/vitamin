@@ -1,12 +1,14 @@
 // it's our home page.
 
-import 'package:flutter/cupertino.dart';
+// import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:vitamin/models/vitamin_category_model.dart';
 import 'package:vitamin/screen/details/details_screen.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  var xFF97a7ba;
+
+  HomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -33,19 +35,22 @@ class HomeScreen extends StatelessWidget {
           children: [
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.blue,
+                image: DecorationImage(
+                    image: NetworkImage(
+                        'https://scontent.fdac31-1.fna.fbcdn.net/v/t1.6435-9/62086346_2174659469318861_4429397792384876544_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHdTMIBTh9WhwdrnUWDL4mNdgQky4Y_vP12BCTLhj-8_UweQpUCsFD0aalmrwMbn82pXwnPW7Rcro0afILkUpRn&_nc_ohc=aKwXX0Hv6i4AX9JakH2&tn=4QScWzbphiIp6tmc&_nc_ht=scontent.fdac31-1.fna&oh=00_AT8g5xCUG866pvmfIH9MF_8kjZoyvtywEDig0qmpSzEudQ&oe=62361A59')),
+                color: Color(0xFF97a7ba),
               ),
               child: Text('Drawer Header'),
             ),
             ListTile(
-              title: const Text('Item 1'),
+              title: const Text('ABDUS SAMAD'),
               onTap: () {
                 // Update the state of the app.
                 // ...
               },
             ),
             ListTile(
-              title: const Text('Item 2'),
+              title: const Text('https://github.com/AbdusSamad1998'),
               onTap: () {
                 // Update the state of the app.
                 // ...
