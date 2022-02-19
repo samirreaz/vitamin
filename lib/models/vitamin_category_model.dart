@@ -13,27 +13,26 @@ List<VitaminCategoryModel> vitamins = [
   VitaminCategoryModel(
     vitaminName: 'A',
     vitaminImg:
-        'https://banner2.cleanpng.com/20190615/oew/kisspng-dietary-supplement-fat-soluble-vitamins-vitamin-a-vitamins-png-images-free-download-5d0536b86eda97.0323378615606227764541.jpg',
+        'https://8limbmuaythai.com/wp-content/uploads/2016/02/8-fungsi-vitamin-a.jpg',
   ),
   VitaminCategoryModel(
     vitaminName: 'B',
     vitaminImg:
-        'https://i2.wp.com/smartqualifications.com/wp-content/uploads/2014/11/vitamin-B1.jpg?resize=1000%2C675&ssl=1',
+        'https://www.fashionlady.in/wp-content/uploads/2015/12/b-vitamin-food.jpg',
   ),
   VitaminCategoryModel(
     vitaminName: 'C',
     vitaminImg:
-        'https://icon2.cleanpng.com/20180130/cge/kisspng-dietary-supplement-vitamin-c-nutrient-vitamin-e-vitamin-c-material-5a706e2fd409d7.1131500615173176798685.jpg',
+        'https://novadiet.es/wp-content/uploads/2018/03/Propiedades-de-la-vitamina-C-1-768x539.jpg',
   ),
   VitaminCategoryModel(
     vitaminName: 'D',
-    vitaminImg:
-        'https://banner2.cleanpng.com/20190723/ebv/kisspng-dietary-supplement-vitamin-d-food-calcium-suppleme-forever-fit-5d37b102ae05a5.0141293815639308827128.jpg',
+    vitaminImg: 'http://pngimg.com/uploads/vitamins/vitamins_PNG11.png',
   ),
   VitaminCategoryModel(
     vitaminName: 'E',
     vitaminImg:
-        'https://image.shutterstock.com/image-photo/fruit-vegetable-alphabet-letter-e-600w-73823440.jpg',
+        'https://i.pinimg.com/originals/d1/c9/7c/d1c97c19cb0673de343b301c45de202e.jpg',
   ),
   VitaminCategoryModel(
     vitaminName: 'K',
